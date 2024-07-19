@@ -21,7 +21,7 @@
     "# указываем город\n",
     "city = 'Нижний Новгород'\n",
     "# формируем запрос\n",
-    "url = 'https://api.openweathermap.org/data/2.5/weather?q='+city+'&units=metric&lang=ru&appid=79d1ca96933b0328e1c7e3e7a26cb347'\n",
+    "url = 'https://api.openweathermap.org/data/2.5/weather?q='+city+'&units=metric&lang=ru&appid=2133d9a270be8e41515cce9d14a0636d'\n",
     "# отправляем запрос на сервер и сразу получаем результат\n",
     "weather_data = requests.get(url).json()\n",
     "# получаем данные о температуре и о том, как она ощущается\n",
